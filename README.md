@@ -49,7 +49,7 @@ Analytics / SQL Queries
 ---
 
 # 📂 Project Structure
-
+```text
 earthquake-pipeline/
 │
 ├── airflow/
@@ -71,6 +71,7 @@ earthquake-pipeline/
 ├── docker-compose.yml
 │
 └── README.md
+```
 
 ---
 
