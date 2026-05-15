@@ -19,6 +19,7 @@ The pipeline:
 ---
 
 # 🏗️ Architecture
+```text
 
 USGS API
    ↓
@@ -33,7 +34,7 @@ Feature Engineering / Transformation
 PostgreSQL Data Warehouse
    ↓
 Analytics / SQL Queries
-
+```
 ---
 
 # ⚙️ Technologies Used
