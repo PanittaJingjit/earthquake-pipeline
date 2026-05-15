@@ -20,7 +20,6 @@ The pipeline:
 
 # 🏗️ Architecture
 ```text
-
 USGS API
    ↓
 Ingestion Layer
@@ -83,10 +82,8 @@ earthquake-pipeline/
 - Fetches earthquake data from:
   https://earthquake.usgs.gov/
 
-- Stores raw JSON files inside:
-
-data/raw/
-
+- Stores raw JSON files inside: data/raw/
+  
 ---
 
 ## 2️⃣ Cleaning
@@ -133,9 +130,7 @@ The transformed dataset is loaded into:
 
 PostgreSQL Schema: silver
 
-Table:
-
-silver.cleaned_earthquakes
+Table: silver.cleaned_earthquakes
 
 ---
 
